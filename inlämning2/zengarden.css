@@ -1,0 +1,201 @@
+
+{box-sizing: border-box;}
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	background: #fff url(zenbackground.jpg) no-repeat bottom right;
+  background-size: cover;
+	margin: 0;
+	padding: 0;
+	}
+h3 {
+	font: italic normal 3em georgia, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #7D6608;
+	}
+a:link {
+	font-weight: 100;
+	text-decoration: underline;
+	color: #797D7F ;
+	}
+a:visited {
+	text-decoration: underline;
+	color: hotpink;
+	}
+a:hover, a:active {
+	text-decoration: underline;
+	color: #3498DB;
+	}
+abbr {
+	border-bottom: 900;
+	text-transform : capitalize;
+	font-size : 1.5em;
+	letter-spacing : 0.1em;
+	}
+
+/* specific divs */
+.page-wrapper {
+	background: url(zen1.jpg) no-repeat top center;
+	padding: 0 175px 0 110px;
+	margin:0 auto;
+	position: relative;
+	}
+
+.intro {
+	min-width: 1000px;
+	width: 100px;
+	}
+header h1{
+  color: white;
+  background: hotpink;
+  border-radius: 100px;
+  display: block;
+  font: 14px/24px;
+  padding: 20px 15px;
+  text-align: center;
+  margin-top: 100px;
+  width: 200px;
+}
+header h2 {/*the beauty*/
+  color: black;
+  background: hotpink;
+  border-radius: 200px;
+  display: block;
+  font: 14px/24px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 50px;
+	float: right;
+	text-indent: 20px;
+	white-space: pre-wrap;
+	overflow: visible;
+	}
+header {
+	padding-top: 50px;
+	height: 87px;
+}
+.summary {
+	clear: both;
+  background-color: transparent;
+  display: block;
+	margin: 10px 20px 20px 10px;
+	width: 450px;
+	float: center;
+	}
+.summary p {
+  background-color: #ccffcc;
+	font: italic 1.8em/1.2 georgia;
+	text-align: center;
+	}
+.preamble {
+  border: 20px groove;
+  background-color: #ccff99;
+  font: italic 1.2em/1 comic;
+	padding: 0px 10px 0 10px;
+	}
+.supporting {
+  border-radius: 10px groove;
+  background-color: #003366;
+  display: block;
+  margin-right: 10px;
+	padding: 0 10px 0 20px;
+	}
+.explanation p{
+  font: 1.2em/1.5 verdana;
+  background-color: silver;
+}
+.participation p{
+  font: 1.5em/1.5 italic;
+  color: #ff00ff;
+}
+.benefits p{
+  font: 1em/1.5 verdana;
+  background-color: #0080ff;
+  background-position: center;
+  margin-right: 100px;
+}
+.requirements p{
+  font-family: fantasy;
+  background-color: white;
+}
+footer {
+border-style: double;
+text-align: center;
+height: 20px;
+padding: 20px;
+background-color: silver;
+}
+	}
+footer  a:link, footer a:visited {
+	}
+.sidebar {
+	}
+.sidebar .wrapper {/*paperlist*/
+	font: 10px verdana, sans-serif;
+  position: relative;
+	background: transparent url(ico1.gif);
+  vertical-align: 300em;
+	margin: 0 auto;
+	width: 300px;
+	}
+.sidebar h3.select {/*select design*/
+  text-shadow: 0 0 4px #000;
+	margin: 40px 0 30px 0;
+	width: 10%;
+	height: 14px;
+  color: #00FF00;
+	text-indent: 100%;
+	white-space: pre;
+	overflow: visible;
+	}
+.sidebar h3.archives {/*archives*/
+  text-shadow: 0 0 4px #000;
+	margin: 40px 0 30px 0;
+	width: 10%;
+	height: 14px;
+  color: #00FF00;
+	text-indent: 100%;
+	white-space: pre;
+	overflow: visible;
+	}
+.sidebar h3.resources {/*resourses*/
+  text-shadow: 0 0 4px #000;
+	margin: 40px 0 30px 0;
+	width: 10%;
+	height: 14px;
+  color: #00FF00;
+	text-indent: 100%;
+	white-space: pre;
+	overflow: visible;
+	}
+
+.sidebar ul  {
+color: #ffff00;
+	margin: 20px;
+	padding: 0;
+	}
+.sidebar li a:link {
+  display:inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: solid 1px;
+	color: #ffff00;
+	}
+.sidebar li a:visited{
+	color: #B3AE94;
+	}
+  .sidebar li a:hover, a:active{
+    color: blue;
+  }
+.extra1 {
+	background: transparent url(zen.jpg) no-repeat;
+	position: none;
+	width: 255px;
+	height: 405px;
+	}

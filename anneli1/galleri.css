@@ -111,10 +111,6 @@ h2 {
 }
 
 .footer {
-    text-align: center;
-}
-
-.footer-contact {
     position: fixed;
     width: 100%;
     bottom: 0;

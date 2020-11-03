@@ -22,4 +22,29 @@
         margin-top: -30vh;
         color: red;
     }
+    .flex-box {
+        display: inline;
+        text-align: center;
+    }
+    .flex-item {
+        font-size: 14px;
+    }
+    .flex-item img {
+        display: inline;
+        font-size: 8px;
+    }
+    .flex-item a {
+        font-size: 14px;
+    }
+    .flex-item h3 {
+        font-size: 14px;
+        color: red;
+    }
+    .flex-item p {
+        font-size: 14px;
+    }
+    .footer-contact {
+        text-align: center;
+        font-size: 10px;
+    }
 }

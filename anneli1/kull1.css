@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    margin-top: 0px;
+    padding: 6px;
+    overflow: auto;
+    height: 100%;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: cursive;
+}
+
+.wrapper {
+    display: block;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #ff9900;
+}
+
+.navbar a {
+    color: white;
+    font-size: 25px;
+    padding: 14px 20px;
+    text-decoration: whitesmoke;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: yellow;
+    color: yellowgreen;
+}
+
+.container {
+    background-color: transparent;
+}
+
+#content {
+    height: 50px;
+    width: 70px;
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+#myCarousel {
+    width: 500px;
+    height: 900px;
+}
+
+.img {
+    float: left;
+    width: 50%;
+    height: 150px;
+    margin: 5px;
+    border-radius: 20%;
+}
+
+.carousel-caption h3 {
+    color: blue;
+    background-color: yellow;
+    width: 15vh;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: cursive;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0;
+}
+
+p {
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 20px 10px 20px;
+    padding: 10;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-contact {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border: 1px solid black;
+    font-family: cursive;
+    background-color: lightyellow;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link {
+    color: magenta;
+}
+
+.fa:hover {
+    color: black;
+    opacity: 0, 7;
+}
+
+
+/*blackpearlmagic19@gmail.com*/

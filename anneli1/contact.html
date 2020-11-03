@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobilestyle.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Min hundkennel<b><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8 6.236l.894-1.789c.222-.443.607-1.08 1.152-1.595C10.582 2.345 11.224 2 12 2c1.676 0 3 1.326 3 2.92 0 1.211-.554 2.066-1.868 3.37-.337.334-.721.695-1.146 1.093C10.878 10.423 9.5 11.717 8 13.447c-1.5-1.73-2.878-3.024-3.986-4.064-.425-.398-.81-.76-1.146-1.093C1.554 6.986 1 6.131 1 4.92 1 3.326 2.324 2 4 2c.776 0 1.418.345 1.954.852.545.515.93 1.152 1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+</svg></b></h1>
+    </div>
+    <div class="navbar">
+        <a href="join.html" class="div_button_link">Bli medlem!</a>
+        <a href="https://www.skk.se/sv/nyheter/2020/3/skks-atgarder-mot-spridning-av-covid-19/" class="div_button_link">Skk & covid-19</a>
+        <a href="http://skaffahund.se" class="div_button_link">Skaffa hund!</a>
+        <a href="http://skk.se" class="div_button_link">SSK</a>
+        <a href="index.html">Första sidan!</a>
+    </div>
+
+    <div class="container-fluid">
+        <a class="page-header_login page-header_login--login" href="min_hundkennel" tabindex="8" title="/"></a>
+        <a id="my_logo" class="page-header_logo" href="/" title="Till startsidan" data-test="Till statsidan" tabindex="6"></a>
+    </div>
+    <section class="join">
+        <h2>Kontakta oss!<br>Fyll i formuläret och skicka!</h2>
+        <h1><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-open" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.818l5.724 3.465L8 8.917l1.276.766L15 6.218V5.4a1 1 0 0 0-.53-.882l-6-3.2zM15 7.388l-4.754 2.877L15 13.117v-5.73zm-.035 6.874L8 10.083l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738zM1 13.117l4.754-2.852L1 7.387v5.73zM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2z"/>
+                        </svg></h1>
+        <form id="form" method="POST" action="mailto:sita81@hotmail.com">
+            <div>
+                <h1 id="form_head">Fyll i här nedan!</h1><br>
+                <label for="forname">Förnamn:</label>
+                <input id="forname" name="forname" type="text" required="">
+                <label for="surname">Efternamn:</label>
+                <input id="surname" name="surname" type="text" required="">
+                <label for="email">E-mail:</label>
+                <input id="email" name="email" type="email" placeholder="">
+                <label for="message">Ämne</label>
+                <textarea id="message" name="message" cols="15" rows="6"></textarea><br><br>
+                <input type="submit" id="form_submit" value="Skicka">
+            </div><br><br>
+
+            <div><input type="reset" id="reset" value="Nollställ"></div>
+        </form>
+    </section>
+    <div class="footer">
+        <div class="footer-contact">
+            <a href="https://www.hitta.se/s%C3%B6k?vad=anneli%20svensson%20vislanda">Kontakta oss här eller fyll i formuläret
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>och skicka det så hör vi av oss!</a>
+            <a href="contact.html">Kontakta oss!</a>
+            <p>Anneli Svensson <br> Lindås värstregård 9<br>34252 Vislanda<br>Telefon: 0709800678</p>
+            <a class="footer-link" href="#">Sociala medier</a>
+            <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="http://www.google.com" class="fa fa-google"></a>
+            <a href="http://www.youtube.com" class="fa fa-youtube"></a>
+            <a href="http://www.instagram.com" class="fa fa-instagram"></a>
+            <a href="http://www.pinterest.com" class="fa fa-pinterest"></a>
+            <a href="http://www.snapchat.com" class="fa fa-snapchat-ghost"></a>
+            <a href="http://www.skype.com" class="fa fa-skype"></a>
+            <a href="http://www.android.com" class="fa fa-android"></a>
+            <a class="copywrighter"></a>
+            <p>©2020 Rosita.com Copy my page</p>
+        </div>
+    </div>
+</body>
+
+</html>

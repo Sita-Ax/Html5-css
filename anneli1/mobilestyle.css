@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("test.jpg");
+    }
+    .header {
+        display: none;
+    }
+    .navbar {
+        justify-content: flex-start;
+    }
+    #sidebar {
+        font-size: 10px;
+        top: 20vh;
+    }
+    #sidebar a {
+        font-size: 18px;
+    }
+    .wrapper h1 {
+        display: none;
+    }
+    .main p {
+        margin-top: -30vh;
+        color: red;
+    }
+}

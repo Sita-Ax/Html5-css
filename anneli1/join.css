@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    margin-top: 0px;
+    padding: 6px;
+    overflow: auto;
+    height: 100%;
+}
+
+.header h1 {
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.wrapper {
+    display: block;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #ff9900;
+}
+
+.navbar a {
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    padding: 14px 20px;
+    text-decoration: whitesmoke;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: yellow;
+    color: yellowgreen;
+}
+
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 5px;
+}
+
+.registerbtn {
+    background-color: lightsalmon;
+    color: white;
+    padding: 26px 20px;
+    margin: 80px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: salmon;
+    border: 1px solid black;
+    font-size: 80px;
+    margin: 117px;
+    padding: 26px 20px;
+    text-align: center;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+label {
+    color: blueviolet;
+    font-family: cursive;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: cursive;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10;
+}
+
+h2 {
+    color: black;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-contact {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border: 1px solid black;
+    font-family: cursive;
+    background-color: lightyellow;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link {
+    color: magenta;
+}
+
+.fa:hover {
+    color: black;
+    opacity: 0, 7;
+}
+
+@media screen and (max-width: 768;
+) {}

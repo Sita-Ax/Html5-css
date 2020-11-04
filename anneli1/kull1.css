@@ -101,16 +101,6 @@ p {
     padding: 0;
 }
 
-p {
-    color: black;
-    font-family: cursive;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px 20px 10px 20px;
-    padding: 10;
-}
-
 .footer {
     position: fixed;
     width: 100%;

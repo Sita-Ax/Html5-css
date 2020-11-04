@@ -19,8 +19,11 @@
         display: none;
     }
     .main p {
-        margin-top: -30vh;
+        margin-top: -25vh;
         color: red;
+    }
+    .images img {
+        width: 20%;
     }
     .flex-box {
         display: inline;

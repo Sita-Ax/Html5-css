@@ -6,6 +6,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url("back.jpg");
     background-size: cover;
+    padding-bottom: 550px;
 }
 
 .header {
@@ -64,7 +65,7 @@ h2 {
     min-width: 250px;
     max-width: 250px;
     position: fixed;
-    top: 20vh;
+    top: 22vh;
     left: 0;
     z-index: 9999;
 }
@@ -101,9 +102,9 @@ h2 {
     font: 1em sans-serif;
     font-size: 2vh;
     width: 50vh;
-    height: 29vh;
+    height: 35vh;
     position: absolute;
-    top: 78%;
+    top: 88%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
